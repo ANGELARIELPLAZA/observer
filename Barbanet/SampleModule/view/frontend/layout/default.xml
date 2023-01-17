@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Barbanet_SampleModule
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+*
+* @category   Barbanet
+* @package    Barbanet_SampleModule
+* @copyright  Copyright (c) 2015-2017 Damián Culotta. (http://www.damianculotta.com.ar/)
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Barbanet Sample Module Default title</title>
+    </head>
+    <referenceBlock name="copyright">
+        <action method="setTemplate">
+            <argument name="template" xsi:type="string">Barbanet_SampleModule::html/copyright.phtml</argument>
+        </action>
+    </referenceBlock>
+</page>
